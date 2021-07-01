@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/imit"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chooseData"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/newdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:src="@drawable/patient_name"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/setName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Sanjaya Jena"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="7dp"
+                android:src="@drawable/ic_bill_details"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/setBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Branch"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<ImageView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:src="@drawable/gender"-->
+        <!--android:padding="5dp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="MALE"-->
+        <!--android:enabled="false"-->
+        <!--android:textColor="#000000"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:enabled="false"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:src="@drawable/date_of_birth"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/setReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:fontFamily="sans-serif-condensed"
+                android:text="23"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:src="@drawable/registration_number"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/setYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:fontFamily="sans-serif-condensed"
+                android:text="1725102005"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:src="@drawable/mobile_number"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/setPhn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:fontFamily="sans-serif-condensed"
+                android:text="8908402222"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<ImageView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:src="@drawable/bloodgroup"-->
+        <!--android:padding="5dp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="B+ve"-->
+        <!--android:textColor="#000000"-->
+        <!--android:enabled="false"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<ImageView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:src="@drawable/mobile_number"-->
+        <!--android:padding="5dp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="8908327171"-->
+        <!--android:textColor="#000000"-->
+        <!--android:enabled="false"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<ImageView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:src="@drawable/email"-->
+        <!--android:padding="5dp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+        <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Sanjaya.Jena@nirmalyalabs.in"-->
+        <!--android:textColor="#000000"-->
+        <!--android:enabled="false"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+</LinearLayout>

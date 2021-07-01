@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity.RegistrationStudent">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back_chang" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="275dp"
+            android:layout_height="440dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical">
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="REGISTER INDEX"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:fontFamily="serif-monospace"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:text="&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;"-->
+            <!--/>-->
+            <!--<EditText-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/name"-->
+            <!--android:hint="Enter your Name"-->
+            <!--/>-->
+            <!--<EditText-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/regNo"-->
+            <!--android:inputType="number"-->
+            <!--android:hint="Enter your Registarion"-->
+            <!--/>-->
+            <!--<EditText-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/year"-->
+            <!--android:inputType="number"-->
+            <!--android:hint="Ente admission year"-->
+            <!--/>-->
+            <!--<EditText-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/passReg"-->
+            <!--android:hint="Enter your password"-->
+            <!--android:inputType="text"-->
+
+            <!--/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:padding="5dp"
+                        android:src="@drawable/patient_name"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:hint="Enter Name"
+                        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:padding="7dp"
+                        android:src="@drawable/ic_bill_details"
+                        android:textColor="#000000" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginStart="55dp"
+                    android:background="#000000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:padding="5dp"
+                        android:src="@drawable/registration_number"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/regNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:hint="Registartion number"
+                        android:inputType="number"
+                        android:digits="0123456789"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="false"
+                        android:fontFamily="sans-serif-condensed"
+                        android:padding="5dp"
+                        android:src="@drawable/date_of_birth"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/year"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:hint="Admission Yr Ex-2014"
+                        android:inputType="number"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:padding="7dp"
+                        android:src="@drawable/ic_bill_details"
+                        android:textColor="#000000" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/username_text_input_layout"
+                        app:passwordToggleEnabled="true"
+                        app:hintEnabled="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/passReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:hint="Enter Password"
+                        android:inputType="textPassword"
+                        android:textColor="#000000" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:padding="7dp"
+                        android:src="@drawable/mobile_number"
+                        android:textColor="#000000" />
+
+                    <android.support.design.widget.TextInputLayout
+                        app:hintEnabled="false"
+                        android:layout_width="match_parent"
+                        app:counterMaxLength="10"
+                        app:counterEnabled="true"
+                        app:counterOverflowTextAppearance="@style/counterOverride"
+                        app:errorEnabled="true"
+                        android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/phnReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:hint="Enter Phone Number"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:textColor="#000000" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:onClick="register"
+                    android:text="Register" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="30dp"
+            android:text="Note:LE Student should be enter your previous year of join For example if you are join in 2017 then put 2016 and in registration should be your BPUT registration number"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</RelativeLayout>

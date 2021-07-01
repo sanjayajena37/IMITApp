@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notification"
+        android:title="Latesh Notification"
+        android:icon="@drawable/notice"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/all_notification"
+        android:title="Notice Board"
+        android:icon="@drawable/board"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/logoutStudent"
+        android:title="Log out"
+        android:icon="@drawable/notice"
+
+        />
+
+</menu>

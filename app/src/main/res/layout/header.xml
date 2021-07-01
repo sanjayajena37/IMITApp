@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chooseBackground"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgSmall"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/logovector" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="IMIT,Cuttack"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="imitcuttack@rediffmail.com "
+                android:textColor="#ffffff"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/phnSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8908401363"
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/chooseImageSrc"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/camera" />
+
+
+</LinearLayout>

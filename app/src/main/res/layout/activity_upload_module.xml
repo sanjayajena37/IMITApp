@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.sanjaya.imit.Activity.UploadModule">
+
+    <RadioGroup
+        android:id="@+id/radiogrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/InstantNoticeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Instant Notice" />
+
+        <RadioButton
+            android:id="@+id/noticeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Notice" />
+
+        <RadioButton
+            android:id="@+id/allnoticeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=" For Notice Board" />
+
+    </RadioGroup>
+
+    <!--For Text Notice and Image Notice-->
+
+    <RadioGroup
+        android:id="@+id/radio_grp_allNotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/textallnotice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:checked="true"
+            android:text="Text Notice Board" />
+
+        <RadioButton
+            android:id="@+id/imageallnotice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=" Image Notice Board" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/text_allnotice_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/text_allnotice_edittext"
+            android:layout_width="200dp"
+            android:hint="Enter the Notice Data"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_upload_text_data"
+            android:layout_gravity="center_horizontal"
+            android:text="Upload to Server"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/image_all_notice_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/title_allnotice_edittext"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="All Notice Title" />
+
+        <ImageButton
+            android:id="@+id/image_all_notice_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/upload" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/instantNotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/title_upload"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Instant Notice Title" />
+
+        <ImageButton
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/upload" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notificationLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;" />-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="sans-serif-smallcaps"-->
+            <!--android:text="Enter Topic"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textStyle="bold" />-->
+
+        <RadioGroup
+            android:id="@+id/radiogrpTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/mcaRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="MCA" />
+
+            <RadioButton
+                android:id="@+id/mbaRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="MBA" />
+
+            <RadioButton
+                android:id="@+id/mtechRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="M_TECH" />
+
+            <RadioButton
+                android:id="@+id/otherRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="OTHER" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/otherLinearLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/whomSent"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter whom to sent " />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/title_ap"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter the title" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Message" />
+
+        <Spinner
+            android:id="@+id/spinnerClickAction"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp" />
+
+        <Spinner
+            android:id="@+id/spinnerImageAction"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonNotificationSend"
+            android:text="Send Notification" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

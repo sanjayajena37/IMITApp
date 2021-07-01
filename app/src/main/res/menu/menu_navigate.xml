@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home" />
+
+        <item android:id="@+id/principal"
+            android:title="Our Principal"
+            android:icon="@drawable/principle"/>
+    <item android:id="@+id/profileStudent"
+        android:title="Profile"
+        android:icon="@drawable/profilemenu"/>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Course">
+            <menu>
+                <item
+                    android:id="@+id/mca"
+                    android:icon="@drawable/course"
+                    android:title="MCA"/>
+                <item android:id="@+id/mba"
+                    android:icon="@drawable/course"
+                    android:title="MBA"/>
+                <item android:id="@+id/mba_part"
+                    android:icon="@drawable/course"
+                    android:title="MBA Part time"/>
+                <item
+                    android:id="@+id/mtech"
+                    android:icon="@drawable/course"
+                    android:title="M-TECH"/>
+
+            </menu>
+
+        </item>
+    </group>
+
+
+
+<group android:checkableBehavior="single">
+    <item android:title="About"
+        >
+        <menu>
+            <item android:title="Login Section"
+                android:id="@+id/login"
+                android:icon="@drawable/login"
+
+                />
+            <item
+                android:title="College fee payment"
+                android:id="@+id/fee"
+                android:icon="@drawable/money"
+                />
+
+
+            <item
+                android:id="@+id/contact"
+                android:title="Contact Us"
+                android:icon="@drawable/contacts"
+                />
+
+
+            <item
+                android:id="@+id/tender"
+                android:title="Tenders/Quation"
+                android:icon="@drawable/tender"
+                />
+
+
+            <item
+                android:id="@+id/app"
+                android:title="About App"
+                android:icon="@drawable/about1"
+                />
+            <item
+                android:id="@+id/logout_student"
+                android:title="Logout"
+                android:icon="@drawable/logout"
+                />
+
+
+        </menu>
+
+    </item>
+</group>
+
+</menu>

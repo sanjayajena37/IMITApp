@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new4">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.sanjaya.imit.AllDepartment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:padding="10dp"
+            android:text="IMIT"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+
+
+            android:layout_marginRight="12dp"
+            android:text="                The Institute of Management and Information Technology(IMIT),formerly known as College of Accountancy and Management Studies (CAMS), Cuttack was founded way back in 1962. It is a unique prestigious institution of the Government of Odisha, and has positioned itself as a premier institute offering various professional and technical courses that groom the students to cater to the expectations of modern industry." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:text="             The college offers Post Graduate and Research programmes in computer science and Business Administration. The College campus is located at Jobra, Cuttack, on the bank of the river Mahanadi. Being twin to the state capital, Bhubaneswar, the Cyber heart of Odisha, it enjoys many advantages.Its close proximity to many large scale industries, central and state public sector undertaking and technical institutions has provided opportunities to its students for project work, practical training and research. While strengthening human resource development efforts in the country, this college lays greater emphasis on qualitative sense of education and not merely quantitative one." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:padding="10dp"
+            android:text="All Departments"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/mca_frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="MCA" />
+
+        <Button
+            android:id="@+id/mba_frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="MBA" />
+
+        <Button
+            android:id="@+id/mbapart_frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="MBA PARTIME" />
+
+        <Button
+            android:id="@+id/mtech_frag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape2"
+            android:text="M.TECH" />
+
+    </LinearLayout>
+</ScrollView>
